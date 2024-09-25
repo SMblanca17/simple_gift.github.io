@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/envelope.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Love</strong>
+                        <p>
+                            Congratulations on your graduation! I’m so proud of everything you’ve accomplished,
+                            and I’m excited for  <br> all the amazing things that are ahead of you.<br>
+
+                            <br>
+                            
+                            I Love you so much.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="button_heart"></div>
+        </div>
+
+        <div class="button">
+            <a href="sun_moon.html" class="click">Click me</a>
+        </div>
+
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click', () => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+</body>
+</html>
